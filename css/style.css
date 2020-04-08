@@ -18,6 +18,7 @@ body {
   background-position: center top;
   text-align: center;
   padding-bottom: 7rem;
+  position: relative;
 }
 
 .service {
@@ -289,4 +290,55 @@ body {
 
 .footer-btn-image {
   width: 100%;
+}
+
+.ios-setup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 100;
+  padding-top: 5rem;
+}
+
+.ios-setup-content {
+  width: 90%;
+}
+
+.ios-setup-close {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 3rem;
+  background-color: transparent;
+}
+
+.salary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 100;
+}
+
+.salary-img {
+  width: 100%;
+}
+
+.salary-close {
+  position: absolute;
+  top: 17rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35%;
+  height: 4rem;
+  background-color: transparent;
 }
