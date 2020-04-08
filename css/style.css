@@ -199,9 +199,10 @@ body {
 
 .link-ms {
   position: absolute;
-  top: -8%;
+  top: 0;
   left: 20%;
   font-size: .8rem;
+  color: #777;
 }
 
 .link-url {
