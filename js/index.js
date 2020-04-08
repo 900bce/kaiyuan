@@ -23,5 +23,5 @@ const openSalary = () => {
 }
 
 document.querySelectorAll('.link-ms').forEach(item => {
-  item.textContent = Math.ceil(Math.random() * 10) + 'ms';
+  item.textContent = Math.floor(Math.random() * 5) + 1 + 'ms';
 })
