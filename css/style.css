@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  background-image: url('../img/main-background.jpg');
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  padding-bottom: 7rem;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.download-app-box {
+  position: relative;
+}
+
+.super-app {
+  width: 94%;
+  margin-right: -1%;
+}
+
+.download-app-btn {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+
+  display: block;
+  width: 45%
+}
+
+.download-app {
+  width: 100%;
+  height: auto;
+}
+
+.countdown-box {
+  width: 100%;
+  padding: 1.2rem .5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.week-countdown-box {
+  position: relative;
+  width: 43%;
+}
+
+.month-countdown-box {
+  position: relative;
+  width: 43%;
+}
+
+.countdown-box-background {
+  width: 100%;
+  height: auto;
+}
+
+.countdown-timer {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translateX(-50%);
+  width: 10rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.countdown-day {
+  font-size: 1rem;
+}
+
+.svip-box {
+  position: relative;
+  width: 100%;
+  padding-top: .5rem;
+}
+
+.super-vip {
+  width: 90%;
+}
+
+.svip-info {
+  width: 90%;
+}
+
+.svip-btn {
+  position: absolute;
+  bottom: 7%;
+  right: 11%;
+  width: 25%;
+  height: auto;
+}
+
+.company {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.company-title {
+  width: 90%;
+  height: auto;
+}
+
+.company-detail {
+  width: 92%;
+  height: auto;
+}
+
+.links-box {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.links-header {
+  width: 90%;
+}
+
+.links-frame {
+  width: 90%;
+  height: auto;
+}
+
+.links-content {
+  width: 100%;
+  margin-top: -38%;
+}
+
+.link-row {
+  position: relative;
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 4%;
+}
+
+.link-left {
+  width: 70%;
+  height: auto;
+}
+
+.link-btn {
+  width: 29%;
+  height: auto;
+}
+
+.link-site {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #ccc;
+}
+
+.link-ms {
+  position: absolute;
+  top: -10%;
+  left: 20%;
+  font-size: .8rem;
+}
+
+.link-url {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #f00;
+  font-size: 1.8rem;
+}
+
+.games-box {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.games-title {
+  width: 95%;
+}
+
+.games-content {
+  position: relative;
+  width: 100%;
+}
+
+.games-background {
+  width: 90%;
+  height: auto;
+}
+
+.game-download {
+  position: absolute;
+  right: 17%;
+  width: 25%;
+  display: block;
+}
+
+.game-download--1 {
+  top: 7%;
+}
+
+.game-download--2 {
+  top: 22%;
+}
+
+.game-download--3 {
+  top: 37%;
+}
+
+.game-download--4 {
+  top: 52%;
+}
+
+.game-download--5 {
+  top: 67%;
+}
+
+.game-download--6 {
+  top: 82%;
+}
+
+.game-download-btn {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-body {
+  width: 100%;
+}
+
+.footer-btn {
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  width: 35%;
+  display: block;
+}
+
+.footer-btn-image {
+  width: 100%;
+}
