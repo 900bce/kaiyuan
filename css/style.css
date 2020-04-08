@@ -147,7 +147,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   margin-bottom: 4%;
 }
 
