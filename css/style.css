@@ -178,7 +178,15 @@ body {
 
 .link-btn {
   width: 29%;
+  margin: 0;
+  display: table;
+}
+
+.link-btn-img {
+  width: 100%;
   height: auto;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .link-site {
@@ -263,6 +271,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .footer-body {
