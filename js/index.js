@@ -21,3 +21,7 @@ const openSalary = () => {
     behavior: 'smooth'
   });
 }
+
+document.querySelectorAll('.link-ms').forEach(item => {
+  item.textContent = Math.ceil(Math.random() * 10) + 'ms';
+})
