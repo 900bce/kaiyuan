@@ -322,7 +322,7 @@ body {
   background-color: rgba(0, 0, 0, .8);
   z-index: 100;
   padding-top: 5rem;
-  overflow: scroll;
+  overflow: auto;
   overscroll-behavior: contain;
 }
 
@@ -349,7 +349,8 @@ body {
   display: none;
   background-color: rgba(0, 0, 0, .8);
   z-index: 100;
-  overflow: scroll;
+  height: 50rem;
+  overflow: auto;
   overscroll-behavior: contain;
 }
 
