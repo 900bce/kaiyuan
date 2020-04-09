@@ -70,10 +70,6 @@ const closeSetup = () => {
 
 const openSetup = () => {
   document.querySelector('.ios-setup').style.display = 'block';
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
 }
 
 const closeSalary = () => {
@@ -82,10 +78,6 @@ const closeSalary = () => {
 
 const openSalary = () => {
   document.querySelector('.salary').style.display = 'block';
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
 }
 
 document.querySelectorAll('.link-ms').forEach(item => {

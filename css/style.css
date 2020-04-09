@@ -63,12 +63,31 @@ body {
   top: 30%;
 
   display: block;
-  width: 45%
+  width: 45%;
+}
+
+@keyframes btneffect {
+  from {
+    transform: scale(0.95);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.95);
+  }
 }
 
 .download-app {
   width: 100%;
   height: auto;
+  animation-name: btneffect;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .countdown-box {
@@ -294,7 +313,7 @@ body {
 }
 
 .ios-setup {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -303,6 +322,7 @@ body {
   background-color: rgba(0, 0, 0, .8);
   z-index: 100;
   padding-top: 5rem;
+  overflow: scroll;
 }
 
 .ios-setup-content {
@@ -320,7 +340,7 @@ body {
 }
 
 .salary {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -328,6 +348,7 @@ body {
   display: none;
   background-color: rgba(0, 0, 0, .8);
   z-index: 100;
+  overflow: scroll;
 }
 
 .salary-img {
