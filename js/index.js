@@ -67,21 +67,25 @@ const weeklyTimer = setInterval(() => {
 const closeSetup = () => {
   document.querySelector('.ios-setup').style.display = 'none';
   document.querySelector('.container').style.position = 'static'
+  document.querySelector('.container').style.overflow = 'visible';
 }
 
 const openSetup = () => {
   document.querySelector('.ios-setup').style.display = 'block';
   document.querySelector('.container').style.position = 'fixed';
+  document.querySelector('.container').style.overflow = 'hidden';
 }
 
 const closeSalary = () => {
   document.querySelector('.salary').style.display = 'none';
   document.querySelector('.container').style.position = 'static';
+  document.querySelector('.container').style.overflow = 'visible';
 }
 
 const openSalary = () => {
   document.querySelector('.salary').style.display = 'block';
   document.querySelector('.container').style.position = 'fixed';
+  document.querySelector('.container').style.overflow = 'hidden';
 }
 
 document.querySelectorAll('.link-ms').forEach(item => {
